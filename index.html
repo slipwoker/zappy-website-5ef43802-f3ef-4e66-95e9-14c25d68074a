@@ -363,7 +363,7 @@
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "5ef43802-f3ef-4e66-95e9-14c25d68074a";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "5ef43802-f3ef-4e66-95e9-14c25d68074a";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1100,7 +1100,7 @@
 
 
 
-<section data-band-index="4" class="index-cta-section" data-layout-spec="בית-cta">
+<section data-band-index="4" class="index-cta-section" data-layout-spec="בית-cta" id="index-cta-section">
   <div class="cta-bg-decor" aria-hidden="true">
     <svg class="cta-glow" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
       <radialGradient id="cta-grad" cx="50%" cy="50%" r="50%">
@@ -1123,9 +1123,9 @@
   <div class="cta-container">
     <div class="cta-content">
       <h2 class="cta-heading">היצירה הבאה שלך מחכה</h2>
-      <p class="cta-description">בין אם את מחפשת מתנה רבת-משמעות, פריט יודאיקה בעיצוב אישי, או ייעוץ פרטי להתאמה מושלמת של מזוזת קריסטל לביתך — אנחנו כאן כדי להפוך כל רגע רוחני ליצירת אמנות נצחית. צרי איתנו קשר עוד היום לפגישת ייעוץ אישית.</p>
-      <a href="/contact" class="cta-button">צרי קשר לייעוץ אישי</a>
-    </div>
+      <p class="cta-description" style="">בין אם אתם מחפשים מתנה רבת-משמעות, פריט יודאיקה בעיצוב אישי, או ייעוץ פרטי להתאמה מושלמת של מזוזת קריסטל לביתך — אנחנו כאן כדי להפוך כל רגע רוחני ליצירת אמנות נצחית. צרו איתנו קשר עוד היום לייעוץ אישי.</p>
+      <p><a href="/contact" class="cta-button" data-native-element="true" data-element-id="btn-1781993517381-0x0p0se9d" data-element-type="button" style="outline: none;">צרו קשר לייעוץ אישי</a>
+    </p></div>
   </div>
 </section>
   </main>

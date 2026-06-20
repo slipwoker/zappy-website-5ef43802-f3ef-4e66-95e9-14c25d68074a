@@ -363,7 +363,7 @@
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "5ef43802-f3ef-4e66-95e9-14c25d68074a";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "5ef43802-f3ef-4e66-95e9-14c25d68074a";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -878,10 +878,10 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim">
+    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" id="index-hero-section" style="margin-top: -102px !important; padding-top: 102px !important;">
   <!-- Full-bleed background -->
   <div class="index-hero-section__bg-wrap">
-    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A luminous handcrafted crystal mezuzah with iridescent beadwork in a serene museum-quality interior setting, soft natural light creating prismatic highlights, shallow depth of field, editorial composition, spiritual atmosphere, luxury Judaica" width="1200" height="800" src="/assets/site-index-hero-image-1.webp" alt="מזוזת קריסטל בעבודת יד - לומייר" class="index-hero-section__bg-img">
+    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A luminous handcrafted crystal mezuzah with iridescent beadwork in a serene museum-quality interior setting, soft natural light creating prismatic highlights, shallow depth of field, editorial composition, spiritual atmosphere, luxury Judaica" width="1200" height="800" src="/assets/site-index-hero-image-1.webp" alt="מזוזת קריסטל בעבודת יד - לומייר" class="index-hero-section__bg-img" data-hero-background="true" data-element-type="image" data-element-id="img-1781994178229-xmyqzobgw">
   </div>
 
   <!-- Scrim overlay for text legibility -->
@@ -902,7 +902,7 @@
     <h1 class="index-hero-section__title">אור קריסטל <br>וקדושה בעבודת יד</h1>
     <h3 class="index-hero-section__subtitle">מזוזות חרוזי קריסטל המשלבות מורשת רוחנית עם אומנות עילית — כל פריט הוא יצירת אמנות ייחודית הנוצרת באהבה ובכוונה טהורה</h3>
     <div class="index-hero-section__ctas">
-      <a href="/contact" class="index-hero-section__cta index-hero-section__cta--primary">בירור פרטי</a>
+      <a href="/contact" class="index-hero-section__cta index-hero-section__cta--primary" data-native-element="true" data-element-id="btn-1781994189423-59n2w8otl" data-element-type="button" style="outline: none;">בירור פרטים</a>
       <a href="/craftsmanship" class="index-hero-section__cta index-hero-section__cta--secondary">גלו את האומנות</a>
     </div>
   </div>
@@ -1123,7 +1123,7 @@
   <div class="cta-container">
     <div class="cta-content">
       <h2 class="cta-heading">היצירה הבאה שלך מחכה</h2>
-      <p class="cta-description" >בין אם אתם מחפשים מתנה רבת-משמעות, פריט יודאיקה בעיצוב אישי, או ייעוץ פרטי להתאמה מושלמת של מזוזת קריסטל לביתך — אנחנו כאן כדי להפוך כל רגע רוחני ליצירת אמנות נצחית. צרו איתנו קשר עוד היום לייעוץ אישי.</p>
+      <p class="cta-description" style="">בין אם אתם מחפשים מתנה רבת-משמעות, פריט יודאיקה בעיצוב אישי, או ייעוץ פרטי להתאמה מושלמת של מזוזת קריסטל לביתך — אנחנו כאן כדי להפוך כל רגע רוחני ליצירת אמנות נצחית. צרו איתנו קשר עוד היום לייעוץ אישי.</p>
       <p><a href="/contact" class="cta-button" data-native-element="true" data-element-id="btn-1781994126644-0v663mb5k" data-element-type="button" style="outline: none;">צרו קשר לייעוץ אישי</a>
     </p></div>
   </div>
@@ -1135,7 +1135,7 @@
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-brand-col">
-        <img src="/assets/lumi-re-luxury-judaica-handcrafted-jewelry-logo.webp" alt="LUMIÈRE" class="logo" data-element-type="image" data-element-id="img-1781993609211-j2780l0k8" data-zappy-footer-image="true" >
+        <img src="/assets/lumi-re-luxury-judaica-handcrafted-jewelry-logo.webp" alt="LUMIÈRE" class="logo" data-element-type="image" data-element-id="img-1781993609211-j2780l0k8" data-zappy-footer-image="true" style="">
         <p class="footer-tagline">בית יוקרה לאמנות יהודית ותכשיטים בעבודת יד. כל פריט נוצר כחפץ רוחני המשלב מסורת, אומנות ועיצוב על-זמני.</p>
       </div>
 
@@ -1189,9 +1189,9 @@
     <!-- Bottom Bar -->
     <div class="footer-bottom">
       <div class="footer-bottom-left">
-        <span class="copyright" >© LUMIÈRE. כל הזכויות שמורות.</span>
+        <span class="copyright" style="">© LUMIÈRE. כל הזכויות שמורות.</span>
       </div>
-      <div class="footer-bottom-right" >
+      <div class="footer-bottom-right" style="">
         <a href="/privacy">מדיניות פרטיות</a>
         <a href="/terms">תנאי שימוש</a><span class="separator">|</span>
             <a href="/return-policy" aria-label="מדיניות החזרות">
